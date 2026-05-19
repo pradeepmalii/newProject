@@ -88,3 +88,19 @@ if __name__ == "__main__":
 
     # Synchronize Client Clock
     client.synchronize_clock(server)
+
+
+
+#  1. Explain Cristian’s Algorithm:
+# Cristian’s algorithm is used for clock synchronization in distributed systems. A client sends a
+# request to a time server asking for the current time. The server replies with its time, and the client
+# adjusts its clock using the estimated round-trip delay. This helps the client maintain accurate
+# system time.
+# 2. Explain Time Server:
+# A time server is a centralized system that provides the correct and standard time to other
+# computers in a network. Clients request the current time from the server. It helps maintain
+# consistent time across distributed systems.
+# 3. Explain Clock Synchronization:
+# Clock synchronization is the process of adjusting clocks of different computers in a distributed
+# system so that they show nearly the same time. It ensures proper coordination and correct
+# ordering of events in the system.

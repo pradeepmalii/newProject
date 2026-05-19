@@ -68,3 +68,23 @@ if __name__ == "__main__":
 
     print("Original Array:", arr)
     print("Sorted Array:", sorted_arr)                                    
+
+
+
+#     1. What do you mean by message passing system?
+# A message passing system is a communication mechanism used in parallel and distributed
+# computing where processes exchange data by sending and receiving messages. Instead of sharing
+# memory, processes communicate explicitly through message transfers, which ensures
+# coordination and synchronization across different nodes or machines.
+
+# 2. What is difference between OpenMP and MPI?
+# OpenMP and MPI are both used for parallel computing but differ in their approach. OpenMP is
+# designed for shared memory systems and uses compiler directives to create parallel threads
+# within a single machine, allowing direct access to shared memory. MPI, on the other hand, is
+# designed for distributed memory systems and relies on message passing to communicate between
+# processes on different machines.
+# 3. What is parallel merge sort?
+# Parallel merge sort is a sorting algorithm that divides the data into smaller segments and sorts
+# them simultaneously using multiple processors or threads. Once the segments are sorted, they are
+# merged in parallel to produce the final sorted sequence. Proper use of parallel merge sort reduces
+# execution time and improves efficiency for large datasets, making it suitable for highperformance computing and data-intensive applications.

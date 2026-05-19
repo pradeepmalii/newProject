@@ -99,3 +99,20 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+# 1. Difference between Bully and Ring Election Algorithm:
+# In the Bully algorithm, processes with higher IDs take priority and can replace lower-ID
+# processes to become the coordinator. In the Ring algorithm, processes are arranged in a logical
+# ring and election messages pass around the ring until the highest-ID process is selected. Bully
+# uses direct communication, while Ring uses sequential message passing.
+# 2. What is Deadlock?
+# Deadlock is a situation where two or more processes wait indefinitely for resources held by each
+# other. Because each process is waiting for another to release a resource, none of them can
+# proceed. This causes the system to stop progressing.
+# 3. What is the need of a Coordinator?
+# A coordinator is needed in distributed systems to manage tasks and control access to shared
+# resources. It helps coordinate communication between processes and maintains system order.
+# The coordinator ensures efficient operation and synchronization among processes.

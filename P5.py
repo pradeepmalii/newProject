@@ -115,3 +115,18 @@ if p3.can_enter_cs():
 
     for p in processes:
         p.remove_request(removed)
+
+
+
+#  1. Explain critical section?
+# Ans :- A critical section is a part of a program where shared resources (like variables, files, or
+# memory) are accessed. Only one process or thread should execute this section at a time to
+# prevent data inconsistency. It is important in concurrent programming.
+# 2. What is a concept of mutual exclusion?
+# Ans:- Mutual exclusion is a concept that ensures that only one process or thread can enter the critical
+# section at a time. It prevents conflicts when multiple processes try to access shared resources
+# simultaneously.
+# 3. What is deadlock?
+# Ans:- A deadlock is a situation where two or more processes are waiting for each other to release
+# resources, so none of them can proceed. As a result, all the processes remain stuck indefinitely. It
+# commonly occurs in systems with multiple shared resources.
